@@ -3,6 +3,11 @@
 // ==================================== */
 
 :root {
+  --fuchsia: #c4007a;
+  --blue-international: #201e50;
+  --green-economy: #c1edcc;
+  --purple-society: #a6a8da;
+  --orange-sport: #fe5e41;
 }
 
 /* ====================================
@@ -17,6 +22,7 @@
 
 html {
   font-size: 16px;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -26,6 +32,8 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  background-color: #f9f9f9;
+  padding: 0 30px;
 }
 
 a {
@@ -43,14 +51,14 @@ video {
 // base rules
 // ==================================== */
 
-.row + .row {
-  margin-top: 16px;
-}
+// .row + .row {
+//   margin-top: 16px;
+// }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
