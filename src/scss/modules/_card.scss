@@ -129,3 +129,79 @@
   margin-right: 5px;
   margin-top: 5px;
 }
+
+.card-sport .title {
+  background-color: var(--orange-sport);
+}
+
+.card-sport .gradient-line {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    263deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(254, 94, 65, 1) 100%
+  );
+}
+
+.card-sport {
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(254, 94, 65, 1) 49%,
+      rgba(255, 255, 255, 0) 100%
+    )
+    1;
+}
+
+.card-international .title {
+  background-color: var(--blue-international);
+}
+
+.card-international .gradient-line {
+  width: 100px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    263deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(32, 30, 80, 1) 100%
+  );
+}
+
+.card-international {
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(32, 30, 80, 1) 49%,
+      rgba(255, 255, 255, 0) 100%
+    )
+    1;
+}
+
+.card-society .title {
+  background-color: var(--purple-society);
+}
+
+.card-society .gradient-line {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    263deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(166, 168, 218, 1) 100%
+  );
+}
+
+.card-society {
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(166, 168, 218, 1) 49%,
+      rgba(255, 255, 255, 0) 100%
+    )
+    1;
+}
