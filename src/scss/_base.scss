@@ -66,3 +66,43 @@ video {
 h2 {
   font-size: 16px;
 }
+
+h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.title-section {
+  margin-bottom: 45px;
+}
+
+.special-title {
+  margin-bottom: 89px;
+  margin-top: 80px;
+}
+
+.special-background {
+  background-color: var(--fuchsia);
+  height: 183%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  .special-background {
+    height: 99%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .special-background {
+    height: 60%;
+  }
+}
+
+.main-section {
+  margin-bottom: 45px;
+}

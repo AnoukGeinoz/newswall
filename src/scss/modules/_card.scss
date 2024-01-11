@@ -134,7 +134,8 @@
   background-color: var(--orange-sport);
 }
 
-.card-sport .gradient-line {
+.card-sport .gradient-line,
+.gradient-line-sport {
   background: rgb(255, 255, 255);
   background: linear-gradient(
     263deg,
@@ -160,7 +161,7 @@
 }
 
 .card-international .gradient-line {
-  width: 100px;
+  width: 0px;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     263deg,
